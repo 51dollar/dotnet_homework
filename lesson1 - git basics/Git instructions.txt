@@ -4,3 +4,17 @@ git clone <ссылка на репозиторий github + .git в конце>
 # отслеживание изменений
 git status
 
+# настройка пользователя git
+git config --global user.name <имя пользователя>
+git config --global user.email <email>
+
+# история коммитов 
+git log
+
+# добавить все файлы
+git add .
+# добавить файл
+git add
+
+# создать коммит
+git commit -m '<текст коммита>'
